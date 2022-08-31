@@ -28,11 +28,7 @@ function CovidChart({ date, deathCases, allCases, country, recover }) {
     ],
   };
 
-  return loading ? (
-    <h2>Loading...</h2>
-  ) : error ? (
-    <h2>{error}</h2>
-  ) :(
+  return (
     <div className="chart">
       <Line data={data} />
     </div>

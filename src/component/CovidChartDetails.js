@@ -56,7 +56,7 @@ function CovidChartDetails({ country }) {
     <h2>{error}</h2>
   ) : (
     <div className="chart-container">
-      <CovidChart date={date} deathCases={deathCases} allCases={allCases} country = {country} recover ={recover}/>
+      <CovidChart date={date} deathCases={deathCases} allCases={allCases} country = {country}/>
     </div>
   );
 }
