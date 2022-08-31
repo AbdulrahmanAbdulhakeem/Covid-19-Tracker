@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #51e2f5;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+select {
+  padding: 8px 16px;
+  border:1px solid #f2f2f2;
+  border-radius: 5px;
+  line-height: 1;
+  width: 268px;
+}
+
+select:focus{
+  outline: none;
+}
+
+ 
+.App {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.header {
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.header h2{
+  color: #a28089;
+}
+
+.header select {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 3rem;
+}
+
+.card{
+  background-color: #a28089;
+  color: #333;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60%;
+  height: 100%;
+  border-top: 5px solid #ff1d58;
+}
+
+.card h2{
+  padding: 1rem;
+}
+
+.card .bad {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #ff1d58;
+}
+
+.card .good{
+  padding: 1rem;
+  font-size: 2rem;
+  color: #59ce8f;
+  font-weight:bolder ;
+}
+
+.chart-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.chart{
+  width: 100%;
+}
+
+@media(max-width: 800px) {
+  body{
+    display: block;
+    overflow-x: hidden;
+  }
+  
+  select {
+    padding: 5px;
+    height: 50px;
+    border:1px solid #f2f2f2;
+    border-radius: 5px;
+  }
+
+  .card-container{
+    display: block;
+  }
+
+  .card{
+    background-color: #a28089;
+    color: #333;
+    margin-right: 30px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    border-top: 5px solid #ff1d58;
+  }
+
+  .chart{
+    width: 100%;
+  }
+}
