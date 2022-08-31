@@ -70,4 +70,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### <h2>The api for fetching the data is <a href = 'https://disease.sh/'>Disease.sh</a><h2>
+### <h2>The api used for fetching the data is <a href = 'https://disease.sh/'>Disease.sh</a><h2>
