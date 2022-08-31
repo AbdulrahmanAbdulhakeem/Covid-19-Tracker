@@ -50,7 +50,11 @@ function CovidChartDetails({ country }) {
     console.log(country)
   }, [country]);
 
-  return (
+  return loading ? (
+    <h2>Loading...</h2>
+  ) : error ? (
+    <h2>{error}</h2>
+  ) : (
     <div className="chart-container">
       <CovidChart date={date} deathCases={deathCases} allCases={allCases} country = {country} recover ={recover}/>
     </div>
